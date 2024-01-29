@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+h1 {
+  color: #333;
+}
+.controls {
+  margin-bottom: 20px;
+}
+ul#todosList {
+  list-style-type: none;
+  padding: 0;
+}
+li.todo {
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+}
+.todo-title {
+  font-weight: bold;
+}
+.userId {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
